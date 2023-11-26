@@ -12,3 +12,9 @@ $itemDaListaDePresentes = [...$listaDePresentes, 'Xiaomi']; // Operador Array Sp
 
 $pessoaPresenteada = "$nomeCompleto ganho um $listaDePresentes[0] de presente, da marca $itemDaListaDePresentes[5].";
 echo $pessoaPresenteada."<br/>";
+
+$alunosTurmaA = ['Ana', 'Maria', 'João', 'Katia', 'Marcela'];
+$alunosTurmaB = ['Paulo', 'Victor', 'Lucas'];
+$alunosNovatos = ['Felipa', 'Marcia', 'Karina'];
+$alunosMatriculados = [...$alunosTurmaA, ...$alunosTurmaB, ...$alunosNovatos, 'Jonathan', 'Mauricio'];
+print_r($alunosMatriculados);
