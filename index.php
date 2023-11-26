@@ -17,4 +17,21 @@ $alunosTurmaA = ['Ana', 'Maria', 'João', 'Katia', 'Marcela'];
 $alunosTurmaB = ['Paulo', 'Victor', 'Lucas'];
 $alunosNovatos = ['Felipa', 'Marcia', 'Karina'];
 $alunosMatriculados = [...$alunosTurmaA, ...$alunosTurmaB, ...$alunosNovatos, 'Jonathan', 'Mauricio'];
-print_r($alunosMatriculados);
+print_r($alunosMatriculados)."<br/>";
+
+$lista = [
+    'nome'      => 'Sergio',
+    'idade'     =>  42,
+    'sportes'   => [
+        'calistenia'    =>  3,
+        'musculacao'    =>  2,
+        'jiu-jitsu'     =>  1
+    ],
+    "vida" => 1000,
+    "mana" => 928
+];
+print_r($lista)."<br/>";
+
+echo "NOME ".$lista['nome']."<br/>";
+echo "ESPORTE ".$lista['sportes']['calistenia']."<br/>";
+echo "VIDA ".$lista['vida']."<br/>";
