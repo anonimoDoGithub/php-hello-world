@@ -27,8 +27,8 @@ $lista = [
         'musculacao'    =>  2,
         'jiu-jitsu'     =>  1
     ],
-    "vida" => 1000,
-    "mana" => 928
+    'vida' => 1000,
+    'mana' => 928
 ];
 print_r($lista)."<br/>";
 
