@@ -23,9 +23,9 @@ $lista = [
     'nome'      => 'Sergio',
     'idade'     =>  42,
     'sportes'   => [
-        'calistenia'    =>  3,
-        'musculacao'    =>  2,
-        'jiu-jitsu'     =>  1
+        'atividade1'    =>  'Calistenia',
+        'atividade2'    =>  'Musculação',
+        'atividade3'     =>  'Jui-Jitsu'
     ],
     'vida' => 1000,
     'mana' => 928
@@ -33,5 +33,5 @@ $lista = [
 print_r($lista)."<br/>";
 
 echo "NOME ".$lista['nome']."<br/>";
-echo "ESPORTE ".$lista['sportes']['calistenia']."<br/>";
+echo "ESPORTE ".$lista['sportes']['atividade1']."<br/>";
 echo "VIDA ".$lista['vida']."<br/>";
